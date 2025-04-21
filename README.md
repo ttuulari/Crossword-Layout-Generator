@@ -84,6 +84,22 @@ The demo website shows:
 - Itay Livni
 - Michael Blättler
 
+## Forked Repositories with Additional Features
+
+During Fall 2024, two teams of students in the Open Source Software Development course at Swarthmore College, taught by Chris Murphy, worked to improve this open source project by adding additional features.
+
+**Added features for AI integration and dark mode**
+
+Contributors: Abe P., Mina M., and Nick F.
+
+Link: https://github.com/nicholasyfu1/Crossword-Layout-Generator
+
+**Added features for generating PDF's and using synonyms**
+
+Contributors: Jayson B., Marcus W., and Sharvari T.
+
+Link: https://github.com/MarcusW03/Crossword-Layout-Generator
+
 ## Updates (December 2024)
 
 I also co-implemented an algorithm for automatic crossword puzzle filling.  Take a look at the new repository here @ [Automatic Crossword Puzzle Filling](https://github.com/MichaelWehar/Automatic-Crossword-Puzzle-Filling)
