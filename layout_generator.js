@@ -463,7 +463,7 @@ function tableToString(table, delim){
 
 function generateSimpleTable(words){
   var rows = computeDimension(words, 3);
-  var cols = rows;
+  var cols = 10;
   var blankTable = initTable(rows, cols);
   var table = generateTable(blankTable, rows, cols, words, [0.7, 0.15, 0.1, 0.05]);
   var newTable = removeIsolatedWords(table);
@@ -482,3 +482,6 @@ function generateLayout(words_json){
 if(typeof module !== 'undefined'){
   module.exports = { generateLayout };
 }
+
+export default generateLayout;
+export {generateLayout}

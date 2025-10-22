@@ -1,0 +1,19 @@
+{
+  "name": "crossword-layout-generator",
+  "version": "0.0.1",
+  "description": "A crossword consists of clues, answers, and a layout: - The answers are the hidden words that the player is trying to guess. - Each answer has a clue which is a sentence or phrase that helps the player to guess the associated answer. - The **crossword layout** describes where the answers are located in a two-dimensional grid.",
+  "main": "layout_generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ttuulari/Crossword-Layout-Generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttuulari/Crossword-Layout-Generator/issues"
+  },
+  "homepage": "https://github.com/ttuulari/Crossword-Layout-Generator#readme"
+}
