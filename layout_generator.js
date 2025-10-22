@@ -461,9 +461,9 @@ function tableToString(table, delim){
   }
 }
 
-function generateSimpleTable(words){
+function generateSimpleTable(words, columns){
   var rows = computeDimension(words, 3);
-  var cols = 10;
+  var cols = columns;
   var blankTable = initTable(rows, cols);
   var table = generateTable(blankTable, rows, cols, words, [0.7, 0.15, 0.1, 0.05]);
   var newTable = removeIsolatedWords(table);
@@ -472,8 +472,8 @@ function generateSimpleTable(words){
   return finalTable;
 }
 
-function generateLayout(words_json){
-  var layout = generateSimpleTable(words_json);
+function generateLayout(words_json, columns=10){
+  var layout = generateSimpleTable(words_json, columns);
   layout.table_string = tableToString(layout.table, "<br>");
   return layout;
 }
